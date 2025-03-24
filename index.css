@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: "Karla", Sans-Serif;
+  font-size: 16px;
+}
+
+h4, h3, p {
+  margin: 0;
+}
+#card{
+  width: 375px;
+  height: 550px;
+  box-shadow: 18px 16px 125px -15px rgba(0,0,0,0.89);
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#top_container{
+  width: 100%;
+  height: 45%;
+  padding: 30px;
+}
+#top_container h3 {
+  color: #2ab2af;
+  margin-bottom: 15px;
+}
+#top_container h4{
+  color: #c0df34;
+  margin-bottom: 10px;
+}
+#top_container p{
+  color: #a3c6db;
+}
+#bottom_container{
+  width: 100%;
+  height: 55%;
+  color: white;
+}
+#bottom_container h3{
+  margin-bottom: 15px;
+}
+#bottom_left_container{
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #29a39f;
+  color: white;
+  padding: 30px;
+}
+#cost{
+  font-weight: 700;
+  display: inline-block;
+}
+#sequence{
+  font-size: 12px;
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  margin-left: 4px;
+  opacity: 0.4;
+}
+#priceInAdvance{
+  margin-bottom: 5px;
+}
+
+#bottom_left_container p{
+  margin-bottom: 20px;
+}
+#signUp_btn{
+  width: 100%;
+  color: white;
+  background-color:#c0df34;
+  border: none;
+  font-size: 14px;
+  padding-top : 10px;
+  padding-bottom: 10px;
+}
+#signUp_btn:hover{
+  cursor: pointer;
+  opacity: 0.5;
+}
+#bottom_right_container{
+  width: 50%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  background-color: #2ab2af;
+  color: white;
+  padding: 30px;
+}
+
+ ul{
+   padding: 0;
+   list-style: none;
+   font-size: 0.8rem;
+   opacity: 0.8;
+ }
