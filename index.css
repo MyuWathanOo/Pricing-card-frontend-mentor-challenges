@@ -9,8 +9,6 @@ h4, h3, p {
   margin: 0;
 }
 #card{
-  width: 375px;
-  height: 550px;
   box-shadow: 18px 16px 125px -15px rgba(0,0,0,0.89);
   border-radius: 5px;
   overflow: hidden;
@@ -41,9 +39,8 @@ h4, h3, p {
   margin-bottom: 15px;
 }
 #bottom_left_container{
-  width: 50%;
-  height: 100%;
-  display: inline-block;
+  width: 100%;
+ /* height: 100%;*/
   vertical-align: top;
   background-color: #29a39f;
   color: white;
@@ -51,22 +48,19 @@ h4, h3, p {
 }
 #cost{
   font-weight: 700;
-  display: inline-block;
 }
 #sequence{
   font-size: 12px;
-  display: inline-block;
-  position: relative;
-  top: -3px;
   margin-left: 4px;
   opacity: 0.4;
 }
 #priceInAdvance{
   margin-bottom: 5px;
+  display: flex;
 }
 
 #bottom_left_container p{
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 #signUp_btn{
   width: 100%;
@@ -82,9 +76,8 @@ h4, h3, p {
   opacity: 0.5;
 }
 #bottom_right_container{
-  width: 50%;
-  height: 100%;
-  display: inline-block;
+  width: 100%;
+ /* height: 100%;*/
   vertical-align: top;
   background-color: #2ab2af;
   color: white;
@@ -97,3 +90,13 @@ h4, h3, p {
    font-size: 0.8rem;
    opacity: 0.8;
  }
+
+@media (min-width: 530px){
+  #card{
+    width: 550px;
+    height: 400px;
+  }
+#bottom_container{
+  display: flex;
+}
+}
